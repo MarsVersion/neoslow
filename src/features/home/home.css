@@ -1,0 +1,60 @@
+/* Home Page Specific Styles */
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page .container {
+  flex: 1;
+}
+
+/* Hero Section - Minimal Centered Composition */
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+}
+
+.hero-content {
+  text-align: center;
+  max-width: 2000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero-headline {
+  font-family: var(--font-headline);
+  font-size: clamp(8rem, 8vw, 6rem);
+  font-weight: 600;
+  line-height: 2.2;
+  color: var(--color-text-primary);
+  margin-bottom: 3rem;
+}
+
+.hero-subtext {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-family: var(--font-body);
+  font-size: 5rem;
+  color: var(--color-text-secondary);
+  line-height: 2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 0 1rem;
+  }
+  
+  .hero-headline {
+    margin-bottom: 2rem;
+  }
+  
+  .hero-subtext {
+    font-size: 1rem;
+  }
+}
