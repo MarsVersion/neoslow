@@ -18,7 +18,7 @@ interface GradientTextProps {
 export default function GradientText({
   children,
   className = '',
-  colors = ['#F5F3EE', '#008f2d', '#F5F3EE'],
+  colors = ['#F5F3EE', '#5fd986', '#F5F3EE'],
   animationSpeed = 20, // Very slow for Neo-Slow aesthetic
   showBorder = false,
   direction = 'horizontal',

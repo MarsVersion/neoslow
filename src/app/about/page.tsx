@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div style={{ maxWidth: '1300px', margin: '0 auto', padding: '20rem 2rem' }}>
+    <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '20rem 2rem' }}>
       <h1 style={{ 
         fontFamily: 'var(--font-headline)', 
         fontSize: '4rem',
@@ -15,7 +15,7 @@ export default function About() {
 
       <div style={{
         fontFamily: 'var(--font-body)',
-        fontSize: '2rem',
+        fontSize: '1rem',
         color: 'var(--color-text-primary)',
         lineHeight: 1.8,
         textAlign: 'left'
@@ -23,20 +23,7 @@ export default function About() {
         <section style={{ marginBottom: '6rem' }}>
           <h3 style={{
             fontFamily: 'var(--font-headline)',
-            fontSize: '2.5rem',
-            fontWeight: '500',
-            color: 'var(--color-text-primary)',
-            marginBottom: '1.5rem',
-            lineHeight: 1.8
-          }}>
-          
-          </h3>
-        </section>
-
-        <section style={{ marginBottom: '6rem' }}>
-          <h3 style={{
-            fontFamily: 'var(--font-headline)',
-            fontSize: '2.5rem',
+            fontSize: '1.25rem',
             fontWeight: '600',
             color: 'var(--color-text-primary)',
             marginBottom: '1.5rem',
@@ -65,7 +52,7 @@ export default function About() {
         <section style={{ marginBottom: '6rem' }}>
           <h3 style={{
             fontFamily: 'var(--font-headline)',
-            fontSize: '2.5rem',
+            fontSize: '1.25rem',
             fontWeight: '600',
             color: 'var(--color-text-primary)',
             marginBottom: '1.5rem',
@@ -101,7 +88,7 @@ export default function About() {
         <section style={{ marginBottom: '6rem' }}>
           <h3 style={{
             fontFamily: 'var(--font-headline)',
-            fontSize: '2.5rem',
+            fontSize: '1.25rem',
             fontWeight: '600',
             color: 'var(--color-text-primary)',
             marginBottom: '1.5rem',
@@ -139,7 +126,7 @@ export default function About() {
         <section style={{ marginBottom: '6rem' }}>
           <h3 style={{
             fontFamily: 'var(--font-headline)',
-            fontSize: '2.5rem',
+            fontSize: '1.25rem',
             fontWeight: '800',
             color: 'var(--color-text-primary)',
             marginBottom: '1.5rem',
