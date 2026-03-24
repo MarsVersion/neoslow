@@ -13,6 +13,10 @@ const urbanist = Urbanist({
 export const metadata: Metadata = {
   title: "Neo-Slow",
   description: "A platform for unrealized ideas in art, technology, and research",
+  icons: {
+    icon: '/icon.svg',
+    apple: '/icon-180.svg',
+  },
 };
 
 export default function RootLayout({
