@@ -20,8 +20,8 @@ export default function Footer() {
         {/* Left: Logo */}
         <div style={{
           fontFamily: 'var(--font-label)',
-          fontSize: '5rem',
-          fontWeight: '500',
+          fontSize: '3rem',
+          fontWeight: '300',
           color: 'var(--color-text-primary)'
         }}>
           Neo Slow
@@ -37,7 +37,7 @@ export default function Footer() {
             href="/privacy" 
             style={{
               fontFamily: 'var(--font-body)',
-              fontSize: '2rem',
+              fontSize: '1.3rem',
               fontWeight: '300',
               color: 'var(--color-text-secondary)',
               textDecoration: 'none',
@@ -56,7 +56,7 @@ export default function Footer() {
             href="/contact" 
             style={{
               fontFamily: 'var(--font-body)',
-              fontSize:'2rem',
+              fontSize:'1.3rem',
               fontWeight: '300',
               color: 'var(--color-text-secondary)',
               textDecoration: 'none',
@@ -101,8 +101,8 @@ export default function Footer() {
             }}
           >
             <svg 
-              width="40" 
-              height="40" 
+              width="30" 
+              height="30" 
               viewBox="0 0 24 24" 
               fill="none" 
               stroke="currentColor" 
@@ -136,8 +136,8 @@ export default function Footer() {
             }}
           >
             <svg 
-              width="40" 
-              height="40" 
+              width="30" 
+              height="30" 
               viewBox="0 0 24 24" 
               fill="none" 
               stroke="currentColor" 
@@ -152,7 +152,7 @@ export default function Footer() {
           {/* Copyright */}
           <p style={{
             fontFamily: 'var(--font-body)',
-            fontSize:'2rem',
+            fontSize:'1.5rem',
             fontWeight: '300',
             color: 'var(--color-text-secondary)',
             margin: 0
